@@ -7,7 +7,7 @@ from haystack import connection_router, connections
 from haystack.utils import loading
 
 
-class HaystackConfig(AppConfig):
+class HaaystackConfig(AppConfig):
     name = "haystack"
     signal_processor = None
     stream = None
