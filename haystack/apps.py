@@ -3,8 +3,8 @@ import logging
 from django.apps import AppConfig
 from django.conf import settings
 
-#from haystack import connection_router, connections
-#from haystack.utils import loading
+from haystack import connection_router, connections
+from haystack.utils import loading
 
 
 class HaystackConfig(AppConfig):
